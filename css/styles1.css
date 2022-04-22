@@ -1,0 +1,14 @@
+.kkk{display: flex;
+    justify-content: center;
+}
+.ggg{background-color: rgb(180, 184, 184);
+    width: 100vh;
+    height: 20px;
+    border-radius: 10px;
+}
+.mediii{
+    background-color: rgb(52, 176, 190);
+    width: 80vh;
+    height: 20px;
+   border-radius: 10px;
+}
