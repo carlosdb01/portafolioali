@@ -18,8 +18,15 @@ body {
     height: 100vh;
     background-color: #191c32;
     color: azure;
+    position: relative;
 }
 
+.img-2 {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -94,13 +101,18 @@ span {
     background-color: #fff;
     box-shadow: none;
 }
-
+.iconos-contacto{
+    background-color: #fff;
+}
+.iconos-contacto a {
+    width: 20vh;
+}
 .main img {
     border: 10px solid aquamarine;
-    width: 327px;
+   
     height: 412px;
     z-index: 10;
-    margin: 40px;
+    margin: 25px;
 }
 
 .about {
@@ -184,16 +196,18 @@ span {
 }
 .iconos-contacto {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     width: 100px;
-    justify-content: center;
-    margin: 20px auto;
-    background-color: aqua;
+   
+    margin: 10px;
+    
+    
 }
 .card img {
     width: 100%;
 }
-.iconos
+
+
 .mishabilidades h2 {
     background-color: #fff;
  font-size: 2em;
@@ -249,7 +263,7 @@ span {
 .contenedor-flex {
   border: 1px solid #191c32;
   background: #191c32;
-  padding: 20px;
+  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -283,6 +297,6 @@ span {
   width: 100vw;
   background-color: aquamarine;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
